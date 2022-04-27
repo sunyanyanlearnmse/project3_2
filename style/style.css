@@ -179,17 +179,28 @@ p
     background-color: rgba(0, 0, 0, 0.6);
     cursor: pointer;
   }
-
-  #navv>li{
+  #navv{
     position: absolute;
+    list-style-type: none;
+    padding: 6px;
+    background-color: #100dc7;
+  }
+  #navv>li{
+    
     float: left;
     background-color: #fff;
     width: 10px;
     height: 10px;
-
+    margin-right: 6px;
+    border-radius: 50%;
 
   }
-   
+  #navv>li:first-child{
+    margin-left: 0;
+  }
+  #navv>li:last-child{
+    margin-right: 0;
+  }
    
   .video_1 {
     
