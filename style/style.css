@@ -154,7 +154,7 @@ p
     line-height: 60px;
     left: 0;
     top: 75%;
-    transition: translateY(-50%);
+    transform: translateY(-50%);
   }
 
 
