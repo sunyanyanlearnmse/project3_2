@@ -35,6 +35,9 @@ function changeDot(){
     }
 //定时器 过2秒自动切换图片
 var timer = setInterval(nextFun,2000);
+window.onload=function(){
+  timer=setInterval(nextFun,2000);
+}
 //鼠标移入
 banner.onmouseover=function(){
   prev.style.opacity=1;
@@ -60,4 +63,8 @@ for (var i=0; i<dots.length;i++){
       changeDot();
        
     }
+}
+
+window.onload=function(){
+  timer=setInterval(imgscroll,2000)
 }
