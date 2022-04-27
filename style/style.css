@@ -124,7 +124,11 @@ p
     margin-bottom: 60px;
     
   }
- 
+  #banner{
+    margin: 0;
+    padding: 0;
+  }
+  
   #banner{
     width: 500px;
     height: 666px;
@@ -220,7 +224,7 @@ p
     display: block;  
     margin:0 auto;      
     float: left; 
-    margin-left: 500px;
+    margin-left: 600px;
     margin-right: 150px; 
     
 
@@ -231,7 +235,7 @@ p
     margin:0 auto;
     float: left; 
     display: block;
-    margin-right: 150px; 
+    right: 50px; 
     margin-bottom: 100px;
     
   }
