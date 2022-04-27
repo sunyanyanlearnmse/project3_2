@@ -130,6 +130,7 @@ p
     height: 666px;
     margin: 0  auto ;
     position: relative;
+    margin-bottom: 60px;
   }
 
   #content{
@@ -154,15 +155,30 @@ p
     color: rgb(255, 255, 255);
     font-size: 30px;
     line-height: 60px;
-    left: 0;
+    left: 50;
+    top: 75%;
+    transform: translateY(-50%);
+  }
+  #next{
+    
+    position: absolute;
+    width: 30px;
+    height: 60px;
+    
+    background-color: rgb(0, 0, 0,0.3);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    line-height: 60px;
+    right: 0;
     top: 75%;
     transform: translateY(-50%);
   }
 
-
   
    
   .video_1 {
+    
+    margin-top: 50px ;
     display: block;  
     margin:0 auto;      
     float: left; 
