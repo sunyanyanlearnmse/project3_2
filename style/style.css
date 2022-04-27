@@ -140,6 +140,7 @@ p
     float: left;
     position: absolute;
     opacity: 0;
+    transition: opacity 2s;
   }
   #content>li:first-child{
     opacity: 1;
@@ -157,6 +158,8 @@ p
     left: 0;
     top: 75%;
     transform: translateY(-50%);
+    user-select: none;
+    opacity: 0;
   }
   #next{    
     position: absolute;
@@ -169,6 +172,8 @@ p
     right: 0;
     top: 75%;
     transform: translateY(-50%);
+    user-select: none;
+    opacity: 0;
   }
 
   #prev:hover{
@@ -210,7 +215,7 @@ p
    
   .video_1 {
     
-    margin-top: 50px ;
+    margin-top: 70px ;
     display: block;  
     margin:0 auto;      
     float: left; 
@@ -221,6 +226,7 @@ p
   }
 
   .video_2 {
+    
     margin:0 auto;
     float: left; 
     display: block;
