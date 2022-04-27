@@ -183,7 +183,11 @@ p
     position: absolute;
     list-style-type: none;
     padding: 6px;
-    background-color: #100dc7;
+    background-color: rgba(245, 236, 236, 0.4);
+    border-radius: 20px;
+    bottom: -120px;
+    left: 50%;
+    transform: translateX(50%);
   }
   #navv>li{
     
@@ -196,7 +200,9 @@ p
 
   }
   #navv>li:first-child{
+    background-color: red;
     margin-left: 0;
+
   }
   #navv>li:last-child{
     margin-right: 0;
