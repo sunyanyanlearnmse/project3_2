@@ -65,6 +65,3 @@ for (var i=0; i<dots.length;i++){
     }
 }
 
-window.onload=function(){
-  timer=setInterval(imgscroll,2000)
-}
