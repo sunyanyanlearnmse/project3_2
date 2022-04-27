@@ -155,11 +155,11 @@ p
     color: #fff;
     font-size: 30px;
     line-height: 60px;
-    left: 0;
+    left: 2%;
     top: 50%;
     transform: translateY(-50%);
     user-select: none;
-    opacity: 0;
+    
   }
   #next{    
     position: absolute;
@@ -169,11 +169,11 @@ p
     color:#fff;
     font-size: 30px;
     line-height: 60px;
-    right: 0;
+    left: 108%;
     top: 50%;
     transform: translateY(-50%);
     user-select: none;
-    opacity: 0;
+    
   }
 
   #prev:hover{
